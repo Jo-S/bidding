@@ -1,5 +1,41 @@
 # backend-tech-assessment
 
+## How to run
+Import as a maven project from https://github.com/Jo-S/bidding.git  
+You may or may not have to refresh maven manually.
+You may or may not have to mark src/test/groovy as "test resources root".
+Run the file SimpleTest.groovy to execute the test cases (or run the application and hit the endpoints manually).
+ 
+
+## QA
+#### Exercise difficulty:    
+- Complexity:       Easy (when allowed to use a normal work-flow like this, as opposed to white boarding).
+- Time management:  Moderate.
+                        
+
+#### How did I feel about the exercise:
+It was good.
+Since it is open-ended exercise, the hard part is knowing when to stop.  
+
+
+#### How do you feel about coding an exercise as a step in interview process? 
+10 (awesome way to assess coding ability)
+This is the way to do it.
+It is a true to life (like what you do at work as a programmer) way of assessing.
+I have seen some other assessment methodologies that really misses the mark.
+
+#### What would you change in the exercise and/or process?
+1) It is an open-ended exercise, so you have some space for you own interpretations.
+   ... but the wording "Bids for work on a fixed price", I am not sure what that means.
+   
+2) "We recommend spending 1-4 hours on the exercise"
+   If you are setting up a new project, put the code in place, hit the endpoints with postman a few times,
+   write unit tests, clean up the code, do a write-up, answering the questions provided, add you project to GitHub, 
+   fill out the final web form.
+   
+   Then I do not see the lower bound of one hour as a reasonable time frame to get this done.
+   
+
 As per the requirements, it supports the four operations of:
 
 1) Create project
@@ -17,7 +53,7 @@ As per the requirements, it supports the four operations of:
    
 
 
-
+## Comments
 For time-management purposes, I kept it simple:
 
 No manual configuration outside of annotations and Pom.
